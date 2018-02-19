@@ -7,8 +7,10 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(board)
-  to_i
+def input_to_index(input)
+  input.to_i
 end
-def move(board)
+
+def move(board, pos, character="X")
+  board[position] = character
 end
