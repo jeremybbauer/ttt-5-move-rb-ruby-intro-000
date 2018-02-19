@@ -11,4 +11,4 @@ def input_to_index(board)
   to_i
 end
 def move(board)
-  
+end
